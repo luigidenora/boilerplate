@@ -1,9 +1,4 @@
-import {
-  Scene as SceneBase,
-  Mesh,
-  BoxGeometry,
-  MeshBasicMaterial,
-} from 'three';
+import { Scene as SceneBase, Mesh, BoxGeometry, MeshBasicMaterial } from 'three';
 import { Main, OrthographicCamera } from '@ag-three/interaction';
 
 class Scene extends SceneBase {
